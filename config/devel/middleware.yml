@@ -1,0 +1,19 @@
+---
+#
+# 中间件配置
+#
+
+#
+# 分组
+#
+# group:
+#   global:
+#     - ApiBucket\Middleware\AccessTokenMiddleware
+
+#
+# 匹配规则
+#
+# match:
+#   '*': global
+#   '/hello': ApiBucket\Domain\Acme\Middleware\HelloMiddleware
+...
