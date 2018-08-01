@@ -8,12 +8,12 @@
 #
 # group:
 #   global:
-#     - ApiBucket\Middleware\AccessTokenMiddleware
+#     - App\Middleware\AccessTokenMiddleware
 
 #
 # 匹配规则
 #
 # match:
 #   '*': global
-#   '/hello': ApiBucket\Domain\Acme\Middleware\HelloMiddleware
+#   '/hello': App\Domain\Acme\Middleware\HelloMiddleware
 ...
