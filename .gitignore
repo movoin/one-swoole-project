@@ -78,4 +78,9 @@ GitHub.sublime-settings
 ### PHPUnit ###
 /build/
 
+### Example ###
+/runtime/local/*
+/runtime/logs/*
+/runtime/var/*
+
 # End of https://www.gitignore.io/api/macos,composer,sublimetext,visualstudiocode
